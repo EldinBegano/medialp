@@ -21,6 +21,8 @@ body {
   width: 90%;
   max-width: 600px;
   text-align: center;
+  margin-left: 31%;
+  margin-top: 10%;
 }
 
 h1 {
@@ -46,4 +48,38 @@ h1 {
   min-height: 350px;
   display: flex;
   flex-direction: column;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: auto;
+}
+
+input {
+  width: 100%;
+  padding: 16px 50px 16px 20px;
+  border: none;
+  border-radius: 25px;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #666;
+  outline: none;
+}
+
+input::placeholder {
+  color: #999;
+}
+
+.search-icon {
+    width: 5%;
+    position: absolute;
+    top: 25%;
+    left: 90%;
+}
+
+.footer {
+  align-self: flex-start;
+  color: #666;
+  font-size: 14px;
+  margin-top: auto;
 }
